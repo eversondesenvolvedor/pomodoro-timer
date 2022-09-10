@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Pomodoro</title>
+    </head>
+    <body>
+        <header class="inicio">
+            <p class="titulo">Timer</p>
+        </header>
+        <main class="principal">
+            <h1 id="counter">00:00</h1>
+            <button class="iniciar-btn" onclick="iniciar()">Iniciar</button>
+            <button class="pausar-btn" onclick="pausar()">Pausar</button>
+            <button class="parar-btn" onclick="parar()">Parar</button>
+        </main>
+        <script src="script.js"></script>
+    </body>
 </html>

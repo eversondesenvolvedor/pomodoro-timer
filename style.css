@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.principal{
+    text-align:center;
+    padding-top:1em;
+}
+.titulo{
+    padding:1em;
+    text-align:center;
+    font-size:3em;
+}
+.inicio{
+    background-color:black;
+    color:red;
+    height:7em;
+}
+h1{
+    font-size:10em;
+}
+button{
+    height:5em;
+    width:10em;
+}
+.iniciar-btn{
+    background-color:forestgreen;
+    border-radius:2em;
+    border:none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.pausar-btn{
+    background-color:gold;
+    border-radius:2em;
+    border:none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.parar-btn{
+    background-color:red;
+    border-radius:2em;
+    border:none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+button:hover{
+    cursor:pointer;
+}
+.btn-tempo{
+    background-color: black;
+    border-radius:2em;
+    border:none;
+    color:whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
